@@ -1,3 +1,6 @@
+
+A structured CV created with react.
+
 ### Preview
 
 ![](https://github.com/czuendorf/mycv/blob/main/mycv.gif)
@@ -6,9 +9,10 @@
 
 * Go to folder /data/private
 * create new folder like `your_folder_name`
-* Copy cvdata.ts to /data/private/your_folder_name.
+* Copy `cvdata.ts` from `data/demo` to `/data/private/your_folder_name`.
 * run `npm run start`
-* http://localhost:3000?cvdata=your_folder_name
+* call `http://localhost:3000?cvdata=your_folder_name` in your browser
+* start modifying `cvdata.ts`
 
 ## Available Scripts
 
