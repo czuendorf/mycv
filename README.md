@@ -1,7 +1,3 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ### Preview
 
 ![](https://github.com/czuendorf/mycv/blob/main/mycv.gif)
@@ -9,8 +5,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Adjust Data
 
 * Go to folder /data/private
-* Copy demo.ts to /data/private, modify name.
-* 
+* create new folder like `your_folder_name`
+* Copy cvdata.ts to /data/private/your_folder_name.
+* run `npm run start`
+* http://localhost:3000?cvdata=your_folder_name
 
 ## Available Scripts
 
