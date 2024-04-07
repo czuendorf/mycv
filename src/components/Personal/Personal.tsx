@@ -40,7 +40,7 @@ const Personal: FC<PersonalProps> = (props) => {
           <span>{birthDateAsLocale} {t('bornIn')} {props.data.placeofbirth}</span>
         </DataLine>
       </div>
-      <div className="rounded w-32 h-32 bg-cover bg-no-repeat bg-center" style={{"backgroundImage": `url('${props.data.profilePicture}')`}}></div>
+      <div className="rounded w-32 h-32 bg-cover border-2 bg-no-repeat bg-center" style={{"backgroundImage": `url('${props.data.profilePicture}')`}}></div>
     </div>
   );
 };
