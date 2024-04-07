@@ -57,7 +57,7 @@ const Workplace: FC<WorkplaceProps> = (props) => {
           )}
           <span className="flex-1 flex justify-around break-inside-avoid relative">
             <div className="border-dotted border-sky-500 border-l-8 border-0"></div>
-            <div className="rounded shadow-md flex flex-col bg-gray-50 p-1 absolute text-sm top-1/2 translate-y-[-50%]">
+            <div className="rounded border-2 flex flex-col bg-gray-50 p-1 absolute text-sm top-1/2 translate-y-[-50%]">
               {years > 0 && <span className="whitespace-nowrap">
                 {years} {yearLabel}
               </span>}

@@ -10,7 +10,7 @@ const SectionHeader: FC<SectionHeaderProps> = (props) => {
   const { t } = useTranslation();
   return (
     <div
-      className={`${styles.SectionHeader} text-lg uppercase bg-slate-500 shadow-md text-white rounded px-2 font-semibold flex`}
+      className={`${styles.SectionHeader} text-lg uppercase bg-slate-500 border-2 text-white rounded px-2 font-semibold flex`}
       data-testid="SectionHeader"
     >
       {t(props.title)}
