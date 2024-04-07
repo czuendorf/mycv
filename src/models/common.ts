@@ -29,8 +29,8 @@ export interface AddressDataItem {
 export interface ContactDataItem {
   mail: string
   phone: string
-  linkedin: string
-  github: string
+  linkedin?: string
+  github?: string
 }
 
 export interface WorkplaceDataItem {
@@ -203,6 +203,7 @@ export enum Language {
   German = 'german',
   English = 'english',
   French = 'french',
+  Polish = 'polish',
 }
 
 export enum LanguageRating {
