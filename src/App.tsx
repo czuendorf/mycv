@@ -12,6 +12,7 @@ import { CvDataItem } from "./models/common";
 import TechnologyList from "./components/TechnologyList/TechnologyList";
 import LanguageSkills from "./components/LanguageSkills/LanguageSkills";
 import CvData from "./data/demo/cvdata";
+import Skills from "./components/Skills/Skills";
 
 const App: FC = () => {
   const [customCvData, setCustomCvData] = useState<string>();
@@ -74,6 +75,7 @@ const App: FC = () => {
           <div className="flex flex-col gap-5">
             <TechnologyList workplaces={data.workplaces}></TechnologyList>
             <LanguageSkills languageSkills={data.skills.languages} />
+            <Skills skills={data.skills.other}/>
           </div>
           <div className="break-before-page h-0"></div>
         </Section>

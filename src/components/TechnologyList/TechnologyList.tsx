@@ -35,6 +35,10 @@ const TechnologyList: FC<TechnologyListProps> = (props) => {
     }
   });
 
+  if (allTechnologies.length === 0) {
+    return null;
+  }
+
   allTechnologies.sort(
     (a, b) => (durations.get(b)?.years || 0) - (durations.get(a)?.years || 0)
   );
