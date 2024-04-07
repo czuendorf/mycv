@@ -59,6 +59,7 @@ export enum Degree {
   BachelorScience = "bachelorofscience",
   MasterScience = "masterofscience",
   HighSchoolDiploma = "highschooldiploma",
+  ProfessionalEducation = "professionaleducation",
 }
 
 export enum Gender {
