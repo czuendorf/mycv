@@ -14,7 +14,7 @@ const Interests: FC<InterestsProps> = (props) => {
   }
   const skillsModified = interests?.map((interest, index) => {
     return (
-      <Badge data-testid="Interest"
+      <Badge colorClass={'bg-orange-500'}  data-testid="Interest"
       key={`interest_${index}`} half={false}>{interest}</Badge>
     
     );
