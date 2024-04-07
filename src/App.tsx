@@ -13,6 +13,7 @@ import TechnologyList from "./components/TechnologyList/TechnologyList";
 import LanguageSkills from "./components/LanguageSkills/LanguageSkills";
 import CvData from "./data/demo/cvdata";
 import Skills from "./components/Skills/Skills";
+import Interests from "./components/Interests/Interests";
 
 const App: FC = () => {
   const [customCvData, setCustomCvData] = useState<string>();
@@ -76,6 +77,7 @@ const App: FC = () => {
             <TechnologyList workplaces={data.workplaces}></TechnologyList>
             <LanguageSkills languageSkills={data.skills.languages} />
             <Skills skills={data.skills.other}/>
+            <Interests interests={data.skills.interests}/>
           </div>
           <div className="break-before-page h-0"></div>
         </Section>

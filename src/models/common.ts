@@ -49,6 +49,7 @@ export interface WorkplaceDataItem {
 
 export interface SkillsDataItem {
   languages: LanguageSkill[];
+  interests?: string[];
   other?: string[];
 }
 
